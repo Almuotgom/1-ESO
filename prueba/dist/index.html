@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Apuntes de 1.º ESO sobre números naturales y operaciones básicas.">
+  <title>Tema 0 · Números naturales</title>
+  <style>
+    :root{color-scheme:light;--ink:#182d35;--muted:#587078;--paper:#f4f8f6;--card:#fff;--line:#dce8e4;--green:#18745d;--mint:#e2f4ed;--yellow:#f1c96a;--shadow:0 14px 40px #15362c12}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:var(--green)}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.top{padding:18px 0;border-bottom:1px solid var(--line);background:#f9fcfa}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-size:14px;font-weight:750;letter-spacing:.07em;text-transform:uppercase;color:var(--green)}.top a{font-size:15px;font-weight:650;text-decoration:none}
+    .hero{padding:68px 0 54px;background:radial-gradient(ellipse at 82% 25%,#d7eee4 0,transparent 34%),linear-gradient(135deg,#f9fcfa,#edf6f1)}.eyebrow{margin:0 0 12px;color:var(--green);font-size:14px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h1{max-width:760px;margin:0;font-size:clamp(42px,7vw,76px);line-height:1.03;letter-spacing:-.055em} .intro{max-width:670px;margin:20px 0 0;color:var(--muted);font-size:19px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-block;padding:12px 18px;border:1px solid var(--green);border-radius:8px;background:var(--green);color:white;text-decoration:none;font-weight:700}.button.secondary{background:transparent;color:var(--green)}
+    main{padding:36px 0 76px}.layout{display:grid;grid-template-columns:230px 1fr;gap:32px;align-items:start}.nav{position:sticky;top:18px;padding:20px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}.nav strong{display:block;margin-bottom:10px}.nav a{display:block;padding:7px 0;text-decoration:none;font-size:15px}.content{min-width:0}.section{scroll-margin-top:24px;margin-bottom:22px;padding:28px clamp(20px,4vw,38px);background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}h2{margin:0 0 12px;font-size:clamp(25px,3vw,34px);line-height:1.2;letter-spacing:-.03em}h3{margin:22px 0 5px;font-size:20px}.section p{margin:8px 0;color:#344e55}.math{display:inline-block;padding:3px 9px;border-radius:6px;background:var(--mint);color:#145b49;font-weight:750;font-variant-numeric:tabular-nums}.callout{margin:18px 0;padding:16px 18px;border-left:4px solid var(--yellow);border-radius:4px 10px 10px 4px;background:#fff8e6}.callout strong{color:#644b13}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}.mini{padding:16px;border:1px solid var(--line);border-radius:10px;background:#fbfdfc}.mini h3{margin:0 0 5px}.mini p{margin:0}.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;display:flex;gap:13px;align-items:flex-start;margin:12px 0}.steps li:before{content:counter(step);display:grid;place-items:center;flex:0 0 30px;height:30px;border-radius:50%;background:var(--mint);color:var(--green);font-weight:800}.footer{padding:28px 0 42px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+    @media(max-width:760px){.layout{grid-template-columns:1fr}.nav{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}.nav strong{grid-column:1/-1}.hero{padding:48px 0 38px}.grid{grid-template-columns:1fr}}
+    @media print{body{background:white;font-size:12pt}.top,.nav,.hero-actions{display:none}.hero{padding:10px 0;background:white}.layout{display:block}.section{box-shadow:none;break-inside:avoid;margin:12px 0;padding:18px}.footer{padding-top:12px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap"><span class="brand">Cuaderno de Matemáticas · 1.º ESO</span><a href="assets/apuntes-naturales.pdf" target="_blank" rel="noopener">Abrir apuntes originales (PDF)</a></div></header>
+  <section class="hero"><div class="wrap"><p class="eyebrow">Tema 0 · Números naturales</p><h1>Contar, calcular<br>y pensar.</h1><p class="intro">Repaso de los números naturales, las operaciones básicas y el orden que seguimos al resolver operaciones combinadas.</p><div class="hero-actions"><a class="button" href="#operaciones">Empezar a estudiar</a><a class="button secondary" href="assets/apuntes-naturales.pdf" target="_blank" rel="noopener">Ver el PDF original</a></div></div></section>
+  <main class="wrap"><div class="layout">
+    <nav class="nav" aria-label="Índice de los apuntes"><strong>En esta página</strong><a href="#naturales">Números naturales</a><a href="#operaciones">Operaciones básicas</a><a href="#propiedades">Propiedades</a><a href="#division">La división</a><a href="#combinadas">Operaciones combinadas</a></nav>
+    <div class="content">
+      <section class="section" id="naturales"><h2>Los números naturales</h2><p>Los números naturales son los que utilizamos para contar elementos. El conjunto de los números naturales se representa con la letra <span class="math">ℕ</span>.</p><div class="callout"><strong>Idea clave</strong><br>Las operaciones permiten combinar cantidades, compararlas y repartirlas.</div></section>
+      <section class="section" id="operaciones"><h2>Operaciones básicas</h2><div class="grid">
+        <article class="mini"><h3>Sumar</h3><p>Sumar es unir, juntar o añadir cantidades. Los números que se suman se llaman <b>sumandos</b>.</p><p class="math">3 + 5 = 8</p></article>
+        <article class="mini"><h3>Restar</h3><p>Restar es quitar o calcular la diferencia. En una resta, identificamos minuendo, sustraendo y diferencia.</p><p class="math">5 − 3 = 2</p><p>Comprobación: <span class="math">sustraendo + diferencia = minuendo</span></p></article>
+        <article class="mini"><h3>Multiplicar</h3><p>Multiplicar es sumar repetidamente una misma cantidad. Los términos se llaman <b>factores</b>.</p><p class="math">3 + 3 + 3 + 3 + 3 + 3 = 3 × 6 = 18</p></article>
+        <article class="mini"><h3>Dividir</h3><p>Dividir es repartir una cantidad en partes iguales. El resultado se llama <b>cociente</b>.</p></article>
+      </div></section>
+      <section class="section" id="propiedades"><h2>Propiedades</h2><div class="grid">
+        <article class="mini"><h3>Conmutativa</h3><p>Cambiar el orden no cambia el resultado de una suma ni de una multiplicación.</p><p class="math">3 + 5 = 5 + 3</p><p class="math">3 × 6 = 6 × 3</p></article>
+        <article class="mini"><h3>Asociativa</h3><p>Agrupar de otra forma no cambia el resultado.</p><p class="math">(3 + 5) + 2 = 3 + (5 + 2)</p></article>
+        <article class="mini"><h3>Distributiva</h3><p>Multiplicar una suma por un número equivale a multiplicar cada sumando por ese número y sumar los resultados.</p><p class="math">(3 + 5) × 2 = 3 × 2 + 5 × 2</p></article>
+      </div></section>
+      <section class="section" id="division"><h2>División exacta y entera</h2><p>En toda división relacionamos dividendo, divisor, cociente y resto.</p><div class="grid"><article class="mini"><h3>Exacta</h3><p>El resto es cero.</p><p class="math">dividendo = divisor × cociente</p></article><article class="mini"><h3>Entera</h3><p>El resto no es cero.</p><p class="math">dividendo = divisor × cociente + resto</p></article></div></section>
+      <section class="section" id="combinadas"><h2>Operaciones combinadas</h2><p>Para resolver una expresión con varias operaciones, sigue este orden:</p><ol class="steps"><li><span>Resuelve primero los paréntesis.</span></li><li><span>Haz las multiplicaciones y divisiones, de izquierda a derecha.</span></li><li><span>Termina con las sumas y restas, de izquierda a derecha.</span></li></ol><div class="callout"><strong>Consejo de estudio</strong><br>Escribe cada paso en una línea distinta y revisa que no te has saltado los paréntesis.</div></section>
+    </div>
+  </div></main>
+  <footer class="footer"><div class="wrap">Apuntes de apoyo basados en el documento de UD0 Naturales. <a href="assets/apuntes-naturales.pdf">Consultar el PDF fuente</a>.</div></footer>
+</body>
+</html>
